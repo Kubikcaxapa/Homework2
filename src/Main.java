@@ -59,7 +59,7 @@ public class Main {
         var t = 640;
         var r = 8;
         var result = t / r;
-        System.out.println("Всего работников в компании " + result + " человек" );
+        System.out.println("Всего работников в компании " + result + " человек." );
 
         //Подзадача 2
         result = t / r + 94;
