@@ -2,7 +2,7 @@ public class Main {
     public static void main(String [] args) {
         //Задача 1
         var dog = 8.0;
-        double cat = 3;
+        double cat = 3.6;
         var paper = 763789;
 
         System.out.println(dog);
@@ -30,7 +30,7 @@ public class Main {
         System.out.println(fried);
         fried = fried + 2;
         System.out.println(fried);
-        fried = fried / 3;
+        fried = fried / 7;
         System.out.println(fried);
         //Задача 5
         var frog = 3.5;
@@ -62,8 +62,8 @@ public class Main {
         System.out.println("Всего работников в компании " + result + " человек." );
 
         //Подзадача 2
-        result = t / r + 94;
-        t = 640 / result;
+        result = result + 94;
+        t =  result * 8;
         System.out.println("Если в комании работает " + result + " человек то всего " + t + " часов работы может быть поделено между сотрудниками");
 
 
